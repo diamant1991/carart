@@ -1,0 +1,125 @@
+@media (min-width: 1200px) {
+  .product .col-md-5 {
+    width: 47%; }
+  .product .col-md-7 {
+    width: 53%; } }
+
+@media (min-width: 992px) {
+  .visible-sm {
+    display: none; } }
+
+@media (max-width: 991px) {
+  .hidden-sm {
+    display: none; }
+  .header-wrapp {
+    clear: both; }
+  .nav {
+    padding-left: 0;
+    float: none !important; }
+  .profile {
+    padding-right: 0;
+    float: none !important;
+    margin-top: 15px; }
+  .nav > li {
+    float: none;
+    margin-top: 15px;
+    margin-left: 0 !important; }
+  .search {
+    width: 225px; }
+  .telephone__number {
+    font-size: 24px; }
+  .banner {
+    height: auto; }
+  .catalog-menu {
+    position: relative;
+    clear: both;
+    padding-top: 20px; }
+  .header-top {
+    display: block; }
+  .logo {
+    float: left; }
+  .search {
+    float: right; }
+  .telephone {
+    clear: both;
+    float: left; }
+  .header__basket {
+    float: right; }
+  .advantages__wrapp {
+    padding-left: 0; }
+  .advantages__icon {
+    width: 80px; }
+  .advantages {
+    font-size: 16px; }
+  .review__rating {
+    text-align: left; } }
+
+@media (max-width: 767px) {
+  .catalog-menu__list {
+    display: none;
+    text-align: center; }
+  .catalog-menu__title {
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer; }
+  .catalog-menu {
+    width: 100%; }
+  .banner {
+    background-image: none !important; }
+  .logo {
+    float: none;
+    text-align: center; }
+  .search {
+    float: none;
+    margin: auto;
+    text-align: center;
+    margin-top: 15px; }
+  .telephone {
+    clear: both;
+    float: none;
+    text-align: center;
+    margin-top: 15px; }
+  .header__basket {
+    float: none;
+    text-align: center;
+    margin-top: 15px; }
+  .catalog-menu:after {
+    content: none; }
+  .advantages__wrapp {
+    display: block; }
+  .advantages__text {
+    text-align: left; }
+    .advantages__text br {
+      display: none; }
+  .advantages__item + .advantages__item {
+    margin-top: 15px; }
+  .nav-tabs a {
+    font-size: 24px; }
+  .product__price__item {
+    font-size: 18px; }
+  .item-block {
+    padding-top: 25px; }
+  .nav-tabs {
+    margin-bottom: 25px; }
+  .item-title {
+    font-size: 24px;
+    margin-bottom: 25px; }
+  .footer-top-wrapp {
+    display: block;
+    text-align: center; }
+    .footer-top-wrapp > div + div {
+      margin-top: 15px; }
+  .copyright {
+    text-align: center; }
+  .header .container {
+    padding-left: 0;
+    padding-right: 0; }
+  .header-wrapp {
+    padding-left: 15px;
+    padding-right: 15px; } }
+
+@media (max-width: 450px) {
+  .nav-tabs > li + li {
+    margin-left: 15px; }
+  .nav-tabs a {
+    font-size: 22px; } }
