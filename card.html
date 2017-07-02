@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Карточка товара</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/media.css">
+  <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>a
+  <![endif]-->
+</head>
+<body> 
+  <div class="wrapper">
+    <header class="header">
+    	<div class="top-panel">
+    		<div class="container">
+    			<div class="toggle-btn dropdown-btn visible-sm">
+    				<div class="icon-bar"></div>
+    				<div class="icon-bar"></div>
+    				<div class="icon-bar"></div>
+    			</div>
+    			<div class="header-wrapp hidden-sm clearfix">
+    				<ul class="nav pull-left clearfix">
+    					<li><a href="#">О компании</a></li>
+    					<li><a href="#">Оплата</a></li>
+    					<li><a href="#">Доставка</a></li>
+    					<li><a href="#">Установка</a></li>
+    					<li><a href="#">Сервис-центр</a></li>
+    					<li><a href="#">Вопросы и ответы</a></li>
+    				</ul>
+    				<div class="profile pull-right">
+    					<a href="#">
+    						<span class="user-icon middle"></span>
+    						<span class="middle">Войти</span>
+    					</a>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    	<div>
+    		<div class="container">
+    			<div class="header-top header-top_inner flex">
+    				<div class="logo">
+    					<a href="#">
+    						<img src="img/logo.png" alt="">
+    					</a>
+    				</div>
+    				<div class="search">
+    					<form action="">
+    						<input type="text" class="search__input">
+    						<input type="submit" value="" class="search__submit">
+    					</form>
+    				</div>
+    				<div class="telephone">
+    					<div class="telephone__number">
+    						8-800-111-22-33
+    					</div>
+    					<a href="#" class="get-call">Заказать бесплатный звонок</a>
+    				</div>
+    				<div class="header__basket">
+    					<a href="#">
+    						<div class="caret-icon middle"></div>
+    						<div class="middle">
+    							<div class="header__basket__title">Корзина</div>
+    							<div class="header__basket__text">Ваша корзина пуста</div>
+    						</div>
+    					</a>
+    				</div>
+    			</div>
+    			<div class="catalog-menu catalog-menu_inner">
+    				<div class="catalog-menu__title dropdown-btn">
+    					<span class="middle">Каталог товаров</span>
+    					<span class="drop-icon middle"></span>
+    				</div>
+    				<ul class="catalog-menu__list">
+    					<li><a href="#">Двигатель</a></li>
+    					<li><a href="#">Головка блока цилиндров</a></li>
+    					<li><a href="#">Прокладки</a></li>
+    					<li><a href="#">Механизм газораспределения</a></li>
+    					<li><a href="#">Система подачи воздуха</a></li>
+    					<li><a href="#">Система смазки</a></li>
+    					<li><a href="#">Электрика двигателя</a></li>
+    					<li><a href="#">Ременной привод</a></li>
+    					<li><a href="#">Подготовка топливной смеси</a></li>
+    					<li><a href="#">Отопление / вентиляция</a></li>
+    					<li><a href="#">Тормоза</a></li>
+    					<li><a href="#">Подвеска</a></li>
+    				</ul>
+    			</div>
+    		</div>
+    	</div>
+    </header>
+    <div class="content">
+      <div class="container">
+        <ul class="breadcrumb">
+          <li>
+            <a href="#">Главная</a>
+            <span class="b-arrow"></span>
+          </li>
+          <li>Активный пункт</li>
+        </ul>
+        <h1 class="page-title">Умный охранно-телематический комплекс StarLine Х96</h1>
+        <div class="card clearfix">
+          <div class="col-md-6">
+            <div class="row card-slider">
+              <ul class="bxslider" id="card-slider">
+                <li>
+                  <div class="card-slider__img">
+                    <div class="table-block">
+                      <div class="block-vertical">
+                        <img src="http://via.placeholder.com/400x370" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="card-slider__img">
+                    <div class="table-block">
+                      <div class="block-vertical">
+                        <img src="http://via.placeholder.com/400x370" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="card-slider__img">
+                    <div class="table-block">
+                      <div class="block-vertical">
+                        <img src="http://via.placeholder.com/400x370" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <div id="thumb" class="thumb">
+                <a data-slide-index="0" href="">
+                  <img src="http://via.placeholder.com/110x110" alt="">
+                </a>
+                <a data-slide-index="1" href="">
+                  <img src="http://via.placeholder.com/110x110" alt="">
+                </a>
+                <a data-slide-index="2" href="">
+                  <img src="http://via.placeholder.com/110x110" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="row card__info">
+              <div class="card__size">
+                <span class="middle card__size__title">Варианты комплектации</span>
+                <a href="#" class="card__size__item middle active">M</a>
+                <a href="#" class="card__size__item middle">X</a>
+                <a href="#" class="card__size__item middle">L</a>
+                <a href="#" class="card__size__item middle">XL</a>
+              </div>
+              <div class="card__status clearfix">
+                <div class="product__status product__status_card pull-left">
+                  <span class="ok-icon middle"></span>
+                  <span class="middle">Есть в наличии</span>
+                </div>
+                <div class="review__rating pull-right">
+                  <span class="review__rating__title middle">Рейтинг товара</span>
+                  <div class="b-review__form--rating j-rating small-rating middle clearfix">
+                    <a href="#" class="b-review__form--star b-review__form--star_card fa fa-star" data-index="1"></a>
+                    <a href="#" class="b-review__form--star b-review__form--star_card fa fa-star" data-index="2"></a>
+                    <a href="#" class="b-review__form--star b-review__form--star_card fa fa-star" data-index="3"></a>
+                    <a href="#" class="b-review__form--star b-review__form--star_card fa fa-star" data-index="4"></a>
+                    <a href="#" class="b-review__form--star b-review__form--star_card fa fa-star" data-index="5"></a>
+                    <input type="hidden" name="rating">
+                  </div>
+                </div>
+              </div>
+              <div class="card__price clearfix">
+                <div class="pull-left card__price__item">
+                  26200 <span>грн.</span>
+                </div>
+                <div class="pull-right">
+                  <a href="#" class="btn">Купить</a>
+                  <a href="#" class="btn-grey">Купить в один клик</a>
+                </div>
+              </div>
+              <div class="card__tab">
+                <ul class="card-tabs" role="tablist">
+                  <li class="active"><a href="#delivery" role="tab" data-toggle="tab">Доставка</a></li>
+                  <li><a href="#paypal" role="tab" data-toggle="tab">Оплата</a></li>
+                  <li><a href="#garanty" role="tab" data-toggle="tab">Гарантия</a></li>
+                </ul>
+                <div class="tab-content tab-text">
+                  <div role="tabpanel" class="tab-pane active" id="delivery">
+                    <p>
+                      <b>Оплата товара удобным для вас способом</b>
+                    </p>
+                    <ul>
+                      <li>Банковскими картами Visa и Master card</li>
+                      <li>Приват банк</li>
+                      <li>Наложенным платежем - при получении</li>
+                      <li>Наличный расчет</li>
+                      <li>Безналичный расчет</li>
+                      <li>Рассрочка</li>
+                    </ul>
+                  </div>
+                  <div role="tabpanel" class="tab-pane" id="paypal">
+                    Оплата
+                  </div>
+                  <div role="tabpanel" class="tab-pane" id="garanty">
+                    Гарантия
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-tab">
+          <ul class="card-tabs" role="tablist">
+            <li class="active"><a href="#descr" role="tab" data-toggle="tab">Описание</a></li>
+            <li><a href="#char" role="tab" data-toggle="tab">Характеристики</a></li>
+          </ul>
+          <div class="tab-content tab-text tab-text_second">
+            <div role="tabpanel" class="tab-pane active" id="descr">
+              <p>
+                <b>X96 в комплектации L</b> –это более оснащённая версия противоугонного комплекса от НПО StarLine. <br>
+                Главное отличие от M-версии – наличие модуля автозапуска с большим количеством настроек и режимов работы. Позволяет запускать силовой 
+                агрегат по указанному времени, с заданной периодичностью, на основании показаний с датчика температуры, уровня заряда аккумулятора.
+              </p>
+
+              <p>
+                <b>Авторизация на основе BT StarLine X96 L</b> <br>
+                Поддержка BluetoothSmart-технологии позволяет владельцу ТС проходить нехитрую процедуру авторизации с помощью радиометки или 
+                смартфонного устройства. При нахождении одного из указанных аксессуаров в непосредственной близости от автомобиля (например, 
+                в кармане водителя, сидящего на переднем кресле) иммобилайзер снимет блокировку автоматически.«Умные» датчики с отличной 
+                чувствительностью.
+              </p>
+              <p>
+                В комплекте с X96-сигнализацией предусмотрены датчики наклона и удара. Работают в 3-мерном режиме, 
+                чутко регистрируя различные события, включая удары, попытки поддомкрачивания и начало эвакуации машины 
+                с помощью спецтехники.
+              </p>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="char">
+              
+            </div>
+          </div>
+        </div>
+        <div class="also">
+          <div class="container">
+            <h1 class="page-title">С этим товаром покупают</h1>
+            <div class="owl-carousel owl-theme product-carousel">
+              <div class="item">
+                <div class="product__item clearfix">
+                  <div class="col-md-5">
+                    <div class="row">
+                      <div class="product__img">
+                        <img src="img/photo.jpg" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-7">
+                    <div class="row">
+                      <div class="product__info">
+                        <div class="product__title">Автосигнализация StarLine A93</div>
+                        <p>Надежный автомобильный охранно-телематический комплекс с интеллектуальным автозапуском.</p>
+                        <div class="product__price">
+                          <div class="product__price__item middle">2600 грн.</div>
+                          <div class="product__status middle">
+                            <span class="ok-icon middle"></span>
+                            <span class="middle">Есть в наличии</span>
+                          </div>
+                        </div>
+                        <div class="product__buy">
+                          <a href="#" class="btn">Купить</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="product__item clearfix">
+                  <div class="col-md-5">
+                    <div class="row">
+                      <div class="product__img">
+                        <img src="img/photo.jpg" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-7">
+                    <div class="row">
+                      <div class="product__info">
+                        <div class="product__title">Автосигнализация StarLine A93</div>
+                        <p>Надежный автомобильный охранно-телематический комплекс с интеллектуальным автозапуском.</p>
+                        <div class="product__price">
+                          <div class="product__price__item middle">2600 грн.</div>
+                          <div class="product__status middle">
+                            <span class="ok-icon middle"></span>
+                            <span class="middle">Есть в наличии</span>
+                          </div>
+                        </div>
+                        <div class="product__buy">
+                          <a href="#" class="btn">Купить</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="product__item clearfix">
+                  <div class="col-md-5">
+                    <div class="row">
+                      <div class="product__img">
+                        <img src="img/photo.jpg" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-7">
+                    <div class="row">
+                      <div class="product__info">
+                        <div class="product__title">Автосигнализация StarLine A93</div>
+                        <p>Надежный автомобильный охранно-телематический комплекс с интеллектуальным автозапуском.</p>
+                        <div class="product__price">
+                          <div class="product__price__item middle">2600 грн.</div>
+                          <div class="product__status middle">
+                            <span class="ok-icon middle"></span>
+                            <span class="middle">Есть в наличии</span>
+                          </div>
+                        </div>
+                        <div class="product__buy">
+                          <a href="#" class="btn">Купить</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="product__item clearfix">
+                  <div class="col-md-5">
+                    <div class="row">
+                      <div class="product__img">
+                        <img src="img/photo.jpg" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-7">
+                    <div class="row">
+                      <div class="product__info">
+                        <div class="product__title">Автосигнализация StarLine A93</div>
+                        <p>Надежный автомобильный охранно-телематический комплекс с интеллектуальным автозапуском.</p>
+                        <div class="product__price">
+                          <div class="product__price__item middle">2600 грн.</div>
+                          <div class="product__status middle">
+                            <span class="ok-icon middle"></span>
+                            <span class="middle">Есть в наличии</span>
+                          </div>
+                        </div>
+                        <div class="product__buy">
+                          <a href="#" class="btn">Купить</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="map">
+      <img src="img/map.jpg" alt="">
+    </div>
+  </div>  
+
+  <footer class="footer">
+  	<div class="footer-top">
+  		<div class="container">
+  			<div class="footer-top-wrapp flex">
+  				<div class="footer__logo">
+  					<a href="#">
+  						<img src="img/footer-logo.png" alt="">
+  					</a>
+  				</div>
+  				<div class="footer__item">
+  					<div class="footer__title">
+  						О компании
+  					</div>
+  					<ul class="footer__menu">
+  						<li><a href="#">Вакансии</a></li>
+  						<li><a href="#">Руководство</a></li>
+  						<li><a href="#">Элит в мире</a></li>
+  						<li><a href="#">Контакты</a></li>
+  					</ul>
+  				</div>
+  				<div class="footer__item">
+  					<div class="footer__title">
+  						Партнерам
+  					</div>
+  					<ul class="footer__menu">
+  						<li><a href="#">Электронный каталог</a></li>
+  						<li><a href="#">Партнер Элит</a></li>
+  						<li><a href="#">Партнерские программы</a></li>
+  						<li><a href="#">Доставка</a></li>
+  					</ul>
+  				</div>
+  				<div class="footer__item footer__item_info">
+  					<div class="footer__title">Контактные данные</div>
+  					<div><b>e-mail:</b> carart.shop@gmail.com</div>
+  					<div><b>skype:</b> carart</div>
+  					<div><b>Адрес:</b> 121471, Россия, г. Москва,</div>
+  					<div>ул. Рябиновая, дом 37</div>
+  					<div><b>Телефон:</b> 8 (800) 775-64-93</div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  	<div class="footer-bottom">
+  		<div class="container">
+  			<div class="copyright">
+  				© 2015 - 2017  | Копирование материалов и дизайна сайтов запрещено
+  			</div>
+  		</div>
+  	</div>
+  </footer>
+   
+
+  <script src="js/vendor.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
