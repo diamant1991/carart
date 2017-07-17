@@ -7,6 +7,7 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/media.css">
   <!--[if lt IE 9]>
@@ -72,25 +73,84 @@
     				</div>
     			</div>
     			<div class="catalog-menu catalog-menu_inner">
-    				<div class="catalog-menu__title dropdown-btn">
-    					<span class="middle">Каталог товаров</span>
+    				<ul class="category-menu clearfix hidden-xs">
+    					<li><a href="#">Автосигнализации</a></li>
+    					<li>
+    						<a href="#">Мотосигнализации</a>
+    						<ul class="dropdown-menu">
+    							<li>
+    								<div class="dropdown-menu__img">
+    									<img src="http://via.placeholder.com/90x80" alt="">
+    								</div>
+    								<div class="dropdown-menu__content">
+    									<div class="dropdown-menu__title">
+    										<a href="#">Мотосигнализации</a>
+    									</div>
+    									<ul class="dropdown-menu__list">
+    										<li><a href="#">starline v63</a></li>
+    										<li><a href="#">starline v66</a></li>
+    										<li><a href="#">starline v67</a></li>
+    									</ul>
+    									<a href="#" class="dropdown-menu__more">Показать все</a>
+    								</div>
+    							</li>
+    							<li>
+    								<div class="dropdown-menu__img">
+    									<img src="http://via.placeholder.com/90x80" alt="">
+    								</div>
+    								<div class="dropdown-menu__content">
+    									<div class="dropdown-menu__title">
+    										<a href="#">Мотосигнализации</a>
+    									</div>
+    									<ul class="dropdown-menu__list">
+    										<li><a href="#">starline v63</a></li>
+    										<li><a href="#">starline v66</a></li>
+    										<li><a href="#">starline v67</a></li>
+    									</ul>
+    									<a href="#" class="dropdown-menu__more">Показать все</a>
+    								</div>
+    							</li>
+    							<li>
+    								<div class="dropdown-menu__img">
+    									<img src="http://via.placeholder.com/90x80" alt="">
+    								</div>
+    								<div class="dropdown-menu__content">
+    									<div class="dropdown-menu__title">
+    										<a href="#">Мотосигнализации</a>
+    									</div>
+    									<ul class="dropdown-menu__list">
+    										<li><a href="#">starline v63</a></li>
+    										<li><a href="#">starline v66</a></li>
+    										<li><a href="#">starline v67</a></li>
+    									</ul>
+    									<a href="#" class="dropdown-menu__more">Показать все</a>
+    								</div>
+    							</li>
+    						</ul>
+    					</li>
+    					<li><a href="#">GMS/GPS системы</a></li>
+    					<li><a href="#">GPS маяки/трекеры</a></li>
+    				</ul>
+    				<div class="catalog-btn">
+    					<span class="burger-icon middle"></span>
+    					<span class="middle">Каталог</span>
     					<span class="drop-icon middle"></span>
     				</div>
-    				<ul class="catalog-menu__list">
-    					<li><a href="#">Двигатель</a></li>
-    					<li><a href="#">Головка блока цилиндров</a></li>
-    					<li><a href="#">Прокладки</a></li>
-    					<li><a href="#">Механизм газораспределения</a></li>
-    					<li><a href="#">Система подачи воздуха</a></li>
-    					<li><a href="#">Система смазки</a></li>
-    					<li><a href="#">Электрика двигателя</a></li>
-    					<li><a href="#">Ременной привод</a></li>
-    					<li><a href="#">Подготовка топливной смеси</a></li>
-    					<li><a href="#">Отопление / вентиляция</a></li>
-    					<li><a href="#">Тормоза</a></li>
-    					<li><a href="#">Подвеска</a></li>
-    				</ul>
     			</div>
+    			<ul class="catalog-menu__list hide" id="catalog-list">
+    				<li><a href="#">Двигатель</a></li>
+    				<li><a href="#">Головка блока цилиндров</a></li>
+    				<li><a href="#">Прокладки</a></li>
+    				<li><a href="#">Механизм газораспределения</a></li>
+    				<li><a href="#">Система подачи воздуха</a></li>
+    				<li><a href="#">Система смазки</a></li>
+    				<li><a href="#">Электрика двигателя</a></li>
+    				<li><a href="#">Ременной привод</a></li>
+    				<li><a href="#">Подготовка топливной смеси</a></li>
+    				<li><a href="#">Отопление / вентиляция</a></li>
+    				<li><a href="#">Тормоза</a></li>
+    				<li><a href="#">Подвеска</a></li>
+    			</ul>
     		</div>
     	</div>
     </header>
@@ -104,7 +164,232 @@
           <li>Активный пункт</li>
         </ul>
         <h1 class="page-title">Автосигнализации Starline</h1>
+        <div class="filter">
+         <div class="filter__item middle">   
+           <div class="filter__item__title middle"> Товаров на странице: </div>    
+            <div class="filter__item__value middle"><a href="#">20</a></div>
+            <div class="filter__item__value middle"><a href="#">40</a></div>
+            <div class="filter__item__value middle"><a href="#">60</a></div>
+          </div>
+          <div class="filter__item middle">
+            <div class="filter__item__title middle">Сортировать по:</div> 
+            <div class="filter__item__value middle">
+              <a href="#" class="middle">цене</a>
+              <a href="#" class="arrow-up middle"></a>
+              <a href="#" class="arrow-bottom middle"></a>
+            </div>
+          </div>
+        </div>
+        <div class="catalog clearfix">
+          <div class="col-xs-6 col-exs-12">
+            <div class="row catalog__item">
+              <div class="product__item clearfix">
+                <div class="col-md-5">
+                  <div class="row">
+                    <div class="product__img">
+                      <img src="img/photo.jpg" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-7">
+                  <div class="row">
+                    <div class="product__info">
+                      <div class="product__title">Автосигнализация StarLine A93</div>
+                      <p>Надежный автомобильный охранно-телематический комплекс с интеллектуальным автозапуском.</p>
+                      <div class="product__price">
+                        <div class="product__price__item middle">2600 грн.</div>
+                        <div class="product__status middle">
+                          <span class="ok-icon middle"></span>
+                          <span class="middle">Есть в наличии</span>
+                        </div>
+                      </div>
+                      <div class="product__buy">
+                        <a href="#" class="btn">Купить</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-exs-12">
+            <div class="row catalog__item">
+              <div class="product__item clearfix">
+                <div class="col-md-5">
+                  <div class="row">
+                    <div class="product__img">
+                      <img src="img/photo.jpg" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-7">
+                  <div class="row">
+                    <div class="product__info">
+                      <div class="product__title">Автосигнализация StarLine A93</div>
+                      <p>Надежный автомобильный охранно-телематический комплекс с интеллектуальным автозапуском.</p>
+                      <div class="product__price">
+                        <div class="product__price__item middle">2600 грн.</div>
+                        <div class="product__status middle">
+                          <span class="cross-icon middle"></span>
+                          <span class="middle">Нет в наличии</span>
+                        </div>
+                      </div>
+                      <div class="product__buy">
+                        <a href="#" class="btn">Купить</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-exs-12">
+            <div class="row catalog__item">
+              <div class="product__item clearfix">
+                <div class="col-md-5">
+                  <div class="row">
+                    <div class="product__img">
+                      <img src="img/photo.jpg" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-7">
+                  <div class="row">
+                    <div class="product__info">
+                      <div class="product__title">Автосигнализация StarLine A93</div>
+                      <p>Надежный автомобильный охранно-телематический комплекс с интеллектуальным автозапуском.</p>
+                      <div class="product__price">
+                        <div class="product__price__item middle">2600 грн.</div>
+                        <div class="product__status middle">
+                          <span class="ok-icon middle"></span>
+                          <span class="middle">Есть в наличии</span>
+                        </div>
+                      </div>
+                      <div class="product__buy">
+                        <a href="#" class="btn">Купить</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-exs-12">
+            <div class="row catalog__item">
+              <div class="product__item clearfix">
+                <div class="col-md-5">
+                  <div class="row">
+                    <div class="product__img">
+                      <img src="img/photo.jpg" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-7">
+                  <div class="row">
+                    <div class="product__info">
+                      <div class="product__title">Автосигнализация StarLine A93</div>
+                      <p>Надежный автомобильный охранно-телематический комплекс с интеллектуальным автозапуском.</p>
+                      <div class="product__price">
+                        <div class="product__price__item middle">2600 грн.</div>
+                        <div class="product__status middle">
+                          <span class="cross-icon middle"></span>
+                          <span class="middle">Нет в наличии</span>
+                        </div>
+                      </div>
+                      <div class="product__buy">
+                        <a href="#" class="btn">Купить</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-exs-12">
+            <div class="row catalog__item">
+              <div class="product__item clearfix">
+                <div class="col-md-5">
+                  <div class="row">
+                    <div class="product__img">
+                      <img src="img/photo.jpg" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-7">
+                  <div class="row">
+                    <div class="product__info">
+                      <div class="product__title">Автосигнализация StarLine A93</div>
+                      <p>Надежный автомобильный охранно-телематический комплекс с интеллектуальным автозапуском.</p>
+                      <div class="product__price">
+                        <div class="product__price__item middle">2600 грн.</div>
+                        <div class="product__status middle">
+                          <span class="ok-icon middle"></span>
+                          <span class="middle">Есть в наличии</span>
+                        </div>
+                      </div>
+                      <div class="product__buy">
+                        <a href="#" class="btn">Купить</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-exs-12">
+            <div class="row catalog__item">
+              <div class="product__item clearfix">
+                <div class="col-md-5">
+                  <div class="row">
+                    <div class="product__img">
+                      <img src="img/photo.jpg" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-7">
+                  <div class="row">
+                    <div class="product__info">
+                      <div class="product__title">Автосигнализация StarLine A93</div>
+                      <p>Надежный автомобильный охранно-телематический комплекс с интеллектуальным автозапуском.</p>
+                      <div class="product__price">
+                        <div class="product__price__item middle">2600 грн.</div>
+                        <div class="product__status middle">
+                          <span class="cross-icon middle"></span>
+                          <span class="middle">Нет в наличии</span>
+                        </div>
+                      </div>
+                      <div class="product__buy">
+                        <a href="#" class="btn">Купить</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <ul class="pagination">
+          <li><a href="#" class="active">Пред.</a></li>
+          <li><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+          <li><a href="#">5</a></li>
+          <li><a href="#">След.</a></li>
+        </ul>
+        <div class="about">
+          <h2 class="item-title">О компании</h2>
+          <div class="text-block">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa repudiandae laborum nobis necessitatibus enim voluptatum libero illo, dolorum ea eligendi iusto quae nam dolores nostrum dolore maxime obcaecati consequatur error accusantium ab qui aut odio, atque tempore. Reprehenderit nesciunt sapiente culpa aliquam! Ipsa perspiciatis omnis accusamus, maiores labore in magni.
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores numquam consectetur itaque voluptatem, non blanditiis culpa ex neque voluptas incidunt, sed aut id optio iusto voluptate, iste, ipsum perferendis dicta cumque provident quia. Saepe explicabo neque dolore ipsam distinctio quisquam tempore, possimus repellendus? Maiores odit commodi aspernatur provident, hic ab suscipit architecto, excepturi, quam repellendus nulla sit earum amet expedita ullam veniam et? Vero unde quas quisquam a enim nesciunt eum, impedit neque ullam facere quidem porro tempore laudantium atque quos laborum, nobis deserunt sequi! Veniam exercitationem, necessitatibus eaque doloribus vel eligendi illum. Facilis quis, eligendi asperiores eos, qui iusto.</p>
+          </div>
+        </div>
       </div>
+    </div>
+    <div class="map">
+      <img src="img/map.jpg" alt="">
     </div>
   </div>
 
